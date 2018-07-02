@@ -424,10 +424,10 @@ By accessing this website and continuing to create an account, you agree and are
 		<script>		
 		$(function() {
 			$('#notice').modal({clickClose: false});			
-			$('#parchment, #logo, #sharing').hide();
+			$('#parchment, #logo').css('z-index', -2);
 		});
 		function Agree(){
-			$('#parchment, #logo, #sharing').show();
+			$('#parchment, #logo').css('z-index', 2);
 		}
 		</script>	
 	</body>
