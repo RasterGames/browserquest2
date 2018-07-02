@@ -361,7 +361,7 @@ By accessing this website and continuing to create an account, you agree and are
 			data-ad-slot="1400793934"
 			data-ad-format="auto"></ins>
 		  <script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
+			console.log("Loaded...");
 		  </script> 	
 		  
 		  		  
@@ -422,13 +422,16 @@ By accessing this website and continuing to create an account, you agree and are
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 		<script>		
+
 		$(function() {
 			$('#notice').modal({clickClose: false});			
 			$('#parchment, #logo').css('z-index', -2);
 		});
 		function Agree(){
 			$('#parchment, #logo').css('z-index', 2);
+			(adsbygoogle = window.adsbygoogle || []).push({});
 		}
-		</script>	
+
+		</script>
 	</body>
 </html>
